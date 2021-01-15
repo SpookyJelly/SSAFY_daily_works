@@ -52,5 +52,7 @@ print(movie['movieInfo']['nations'][0]['nationNm'])
 print(movie['movieInfo']['movieNm'])
 # 2. 다음 movie의 감독의 영어 이름을 출력하시오.
 print(movie['movieInfo']['directors'][0]['peopleNmEn'])
+director_name = movie.get('movieInfo').get('directors')[0].get('peopleNmEn')
+print(director_name)
 # 3. 다음 movie의 배우의 인원을 출력하시오.
 print(len(movie['movieInfo']['actors']))
