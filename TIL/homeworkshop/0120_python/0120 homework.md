@@ -14,7 +14,7 @@
 
 ```
 
-
+* int,str,list는 함수가 아니라고? 클래스인가? 그런가? 맞는거 같은데??
 
 
 
@@ -33,6 +33,19 @@ def get_middle_char(word):
     
     else: # 문자의 개수가 홀수일 경우
         return word[ruler//2]
+```
+
+```python
+# 슬라이싱을 활용한 방법
+
+def get_middle_char(word):
+    n = len(word)
+    if n % 2 :
+        return word[n//2]
+    else :
+   		middle = len(word) //2
+    	middle_left = len(word) // 2 -1
+    	return word[middle_left:middle+1]
 ```
 
 

@@ -36,6 +36,27 @@ def dic_list_sum(dic_list):#dic_list =[{'name' :'kim','age':12},
 ```
 
 ```python
+# 다른 방법
+def dic_list_sum(dic_list):#dic_list =[{'name' :'kim','age':12}, 
+    								#  {'name' :'lee','age':4}]
+    # 1. 리스트에서 뭔가 나오는지 확인
+	# 2. 일일이 하나 씩 찍어보기 (print문 사용)
+      
+    total = 0
+    for each_dict in dict_list:
+        total += each_dict['age']
+    return total
+```
+
+```python
+# sum을 이용한 풀이
+
+# 안 쓰는게 더 깔끔하다.
+```
+
+
+
+```python
 #result
 dic_list_sum([{'name' :'kim','age':12},
                {'name' :'lee','age':4}]) --> 16
@@ -61,7 +82,8 @@ def all_list_sum(all_list):#all_list =[1],[2,3],[4,5,6],[7,8,9,10]/type :tuple
             #이렇게 튜플의 각 리스트의 리터럴에 접근하여, 그 합을 구한다.
     return total
 
-
+# 1. numbers를 순회하면서 하나씩 꺼내본다. 그냥 꺼내서 print한다.
+# 2. 이 꺼낸 친구들을 어디에 저장한다.
 ```
 
 ```python
@@ -76,6 +98,7 @@ all_list_sum([1],[2,3],[4,5,6],[7,8,9,10]) --> 55
 # 4. 교수님께 전하고 싶은 말
 
 * 문제 조건에서 sum()을 사용하지 말라고 했는데, 저는 이번 문제를 풀면서 오히려 sum()을 어떻게 사용할 수 있는지 상상하지 못했습니다.  sum()을 이용한 풀이법도 알고 싶습니다.
+* --> 지금은 sum() 함수를 이용하는 것보다, 반복문과 제어문을 이용한 풀이에 집중하자.
 
 
 
