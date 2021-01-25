@@ -91,6 +91,19 @@ def all_list_sum(all_list):#all_list =[1],[2,3],[4,5,6],[7,8,9,10]/type :tuple
 all_list_sum([1],[2,3],[4,5,6],[7,8,9,10]) --> 55
 ```
 
+```python
+# 다른 버젼
+def all_list_sum(all_list):
+    result = [] # 하나로 합쳐진 리스트 저장받을 변수
+    total = 0 # 리스트의 총 합을 받을 변수
+    for idx in range(len(all_list)):
+        result += all_list[idx] # 리스트 더하기
+    for num in result:
+        total += num # 더해진 리스트의 리터럴 총합
+    return num
+
+```
+
 
 
 
