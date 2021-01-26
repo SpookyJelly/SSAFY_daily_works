@@ -17,6 +17,8 @@ def get_dict_avg(dicti):
     for key in key_list:
         total_value += dicti.get(key)
     return total_value / len(key_list)
+
+# .items()를 사용해서 value 자체를 뽑아내도 괜찮다.
 ```
 
 * 결과
