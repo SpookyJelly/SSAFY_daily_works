@@ -127,6 +127,32 @@ lonely([4,4,4,3,3]) # [4,3]
 
 
 
+```python
+# 교수님 코드
+# 1. 새로운 리스트를 만듬
+# 2. 기존 리스트의 현재 값이, 새로운 리스트의 마지막 값이랑 비교
+# 2.1 같으면 --> 생략
+# 2.2 다르면 --> 새로운 리스트에 append
+# 3. 새로운 리스트 return
+def lonely(numbers):
+    if len(numbers) == 0:	#input이 []이면 오류 나니까, 에러 안나게 에티켓으로 넣음
+        return []		
+    
+    new_numbers = [numbers[0]]
+    for idx in range(1, len(numbers)):
+        if numbers[idx] != new_numbers[-1]:
+            new_numbers.append(numbers[idx])
+    return new_numbers
+    pass
+
+print(lonely[1,1,3,3,0,1,1])
+
+
+
+
+
+```
+
 
 
 
