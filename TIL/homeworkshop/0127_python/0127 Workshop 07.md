@@ -20,7 +20,7 @@ $ pip install faker
 
   2. 실행은 cmd 터미널에서 하거나, VScode에서의 Python Powershell에서 실행해야합니다.
 
-     --> 두 경우 모두 파이썬이 설치된 경로에서 실행해야합니다.
+     --> 두 경우 모두 파이썬이 설치된 경로에서 실행해야합니다.(위치 상관 없음.)
 
 
 
@@ -69,7 +69,7 @@ fake.name()				# 3 name()은 fake의 메서드이다.
 ```python
 class Faker():
     def __init__(self,Locale):
-        pass
+        self.Locale = Locale
     
 # Faker 클래스를 생성할 때, Locale이라는 언어 속성을 받으니까 생성자인 __init__를 구현해준다.
 ```
@@ -145,3 +145,8 @@ print(fake2.name()) #2
 > seed()는 반복된 결과를 출력할때 클래스 단위로 시드를 고정시켜 사용할 수 있다.
 >
 > 반면 seed_instance()는 하나의 객체만 여러 난수가 필요할때 사용할 수 있을 것 같다.
+
+
+
+> * 주로 테스팅할 때 사용
+> * seed_instance는 특정 인스턴스만 시드 초기화가 필요할 경우 사용
