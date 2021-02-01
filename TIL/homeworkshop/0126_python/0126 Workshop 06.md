@@ -48,6 +48,18 @@ duplicated_letters('banana') # --> ['a','n']
 * 어찌저찌 잘 풀긴 했는데, 음... 형변환을 너무 해서 좀 조잡해보이는 감이 있다.
 * 딕셔너리 자료형으로 썻어도 잘 할 수 있었을듯, 각 문자 리터럴을 키로 하고 value가 2이상인 친구들만 list로 변환해서 출력
 
+```python
+def duplicated_letters(word):
+    letter_dic= {}
+    result = []
+    for letter in word:
+        letter_dic.setdefault(letter,0)
+        letter_dic[letter] += 1
+        if letter_dic[letter]>=2:
+            result.append(letter)
+    print(sorted(set(result)))
+```
+
 
 
 

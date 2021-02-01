@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- CSS 단위는 크게 5가지가 존재합니다. -->
+  <!-- px, % , em , rem 그리고 viewport. -->
+  <!-- px : 고정된 크기가 반드시 필요할 때 사용 -->
+  <!-- rem & em : 폰트 사이즈 설정 시 사용 -->
+  <!-- % : 컨테이너의 넓이와 높이 설정 시 사용 -->
+  <!-- viewport : 반응형 폰트 사이즈 설정 시 사용-->
+  <!-- rem 계산 방식 : 브라우저 기본 폰트 사이즈 -->
+  <!-- 일반적으로 1rem은 16px을 뜻한다. -->
+
+  <!-- em 계산 방식 : 부모 요소로부터 상속받은 폰트사이즈 -->
+  <ul style="font-size : 1.5em"> <!-- 얘는 24px  body 부모에게 물려 받으니까 -->
+    <li style="font-size : 1.5em">하나</li> <!-- 얘는 32px. ul 부모에게 물려 받으니까-->
+    <li style="font-size:1.5rem">둘</li> <!-- 얘는 24px. 폰트 기본 사이즈 16px 에서 1.5배니까-->
+  </ul>
+
+</body>
+</html>
