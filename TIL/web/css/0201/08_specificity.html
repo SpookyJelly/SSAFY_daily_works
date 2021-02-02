@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 1. 명시도에 직접적인 영향을 주는 요인 케이스 */
+    #starbucks{
+      color: green;
+    }
+    .cafe{
+      color : red;
+    }
+    /* 2.2 선택자가 더 구체적일 때 */
+    div.paul{
+      color : red;
+    }
+
+    /* 2. 명시도와 관련은 없지만 영향을 주는 것들*/
+    /* 2-1. 작성 순서 */
+    .blue-bottle{
+      color:skyblue;
+    }
+    /* 2-3.!important */
+    *{
+      /* color: slateblue !important; */
+    }
+  </style>
+</head>
+<body>
+  <p id="starbucks" class="cafe">Starbucks</p>
+  <div class= "blue-bottle cafe">Blue Bottle</div>
+  <!-- class = "cafe blue=bottle"이여도 동일한 결과 나옴! 내부의 순서와는 아무런 관련 없다 -->
+  <div class="cafe blue-bottle paul">Paul Bassett</div>
+
+  <!--
+    명시도(우선순위)에 직접적인 영향을 주는 요인들
+    1. 요소 선택자
+    2. 클래스 선택자
+    3. 아이디 선택자
+    
+    명시도와는 관련 없지만, 실제로 영향을 주는 요인들
+    1. cascading : 작성 순서. 우선순위가 같을 경우
+                  나중에 작성된 값이 이용 (밑에 선언된게 적용)
+    2. 구체적인 선택자 :같은 우선순위일 경우, 선택자가 구체적일 수록 높은 우선순위
+    3. inline : 태그에 직접 작성된 스타일은 내/외부 스타일보다 높은 우선순위를 가짐
+    4.!important:모든 우선순위를 무시하고 적용됨.외부 라이브러리(ex.Bootstrap)를 재정의할때 사용
+  -->
+</body>
+</html>

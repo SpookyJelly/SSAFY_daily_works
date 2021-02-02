@@ -1,0 +1,72 @@
+body{
+  width:800px;
+  font-family: 'Arial';
+}
+/* 모든 스타일링 요소를 클래스로 만들어 
+사용합니다. */
+
+/* 1. article 태그는 white로 나머지 시멘틱 태그는 
+lightgrey로 배경색을 바꿔주세요. */
+.bg-white{
+  background-color:white;
+}
+.bg-lightgrey{
+  background-color:lightgray
+}
+/* article{} 꼴로 만들어도 당장은 사용할수 있다 --> 근데 클래스 만드는게 함수 쓰는 이유와 같음 */
+
+/* 2. 모든 시멘틱 태그의 margin과 p
+adding을 4px로 만들어주세요. */
+
+.m-p-4{
+  margin: 4px;
+  padding: 4px;
+}
+
+
+/* 3. h1 태그를 중앙 정렬 시켜주세요. */
+.text-center{
+  text-align: center;
+}
+
+/* 4. section과 aside 태그의 
+display를 inline-block으로 바꿔주세요. */
+.inline-block{
+  display: inline-block;
+  
+}
+/* 5. section 태그는 width 482px 
+height 300px, aside 태그는 width 280px 
+height 300px로 만들어주세요.*/
+.sectionsize{
+  width: 482px;
+  height: 300px;
+}
+.asidesize{
+  width: 280px;
+  height: 300px;
+}
+
+/* 6. aside 태그에 vertical-align속성의 
+값을 top으로 적용해주세요.*/
+.vertical-top{
+  vertical-align: top;
+}
+/* vertical 요소는 인라인에만 적용된다. */
+
+/* 7. 모든 semantic 태그의 border 
+모서리 반경을 4px로 만들어주세요. */
+/* border-radius? */
+/* 보더를 둥글둥글하게 만드는 뭔가가 있다.. 이걸 어떻게 하는지.. */
+.border-radius-4{
+  border-radius: 4px;
+}
+
+.text-vertical-center{
+  line-height: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;}
+
+.m-0 {
+  margin: 0px;
+}
