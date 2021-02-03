@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+
+    p{
+      font-size: 50px;
+    }
+    .box{
+      height: 50px;
+      background-color: crimson;
+      padding-left: 30px;
+      display: flex;
+      align-items: center ;
+    }
+
+    .flex{
+      display: flex;
+      justify-content: space-between;
+    }
+
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+  <!-- 1번 컴포넌트 -->
+  <p> 1번</p>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button style="margin-top: 20px;" class="btn btn-success" type="button">Sign in</button>
+  </div>
+
+<hr>
+<!-- 2번 컴포넌트 -->
+  <p>2번</p>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid bg-dark">
+      <a class="navbar-brand" href="#"><img src="https://www.ssafy.com/swp_m/images/common/logo3.png" height= "40px" alt="싸피로고"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              프로젝트 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="groups" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              그룹들
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">
+              활동
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">
+              마일스톤
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">
+              스니펫
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<hr>
+<!-- 3번 컴포넌트 -->
+<p>3번</p>
+
+<nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">
+        3
+      </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">
+          4
+        </a>
+        </li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<hr>
+<!-- 4번 컴포넌트 -->
+<p>4번</p>
+
+<div class="box">
+  <div style="color: white;">Invaild Login or password.</div>
+</div>
+<p>
+  SSAFY 전용 GitLab 시스템
+</p>
+<hr>
+<div class="card">
+  <div class="card-body" >
+    <div style="text-align: center;">
+      <strong>Sign in </strong>
+    </div>
+    <hr style="color: blue">
+    <div style="margin-bottom: 16px; ">
+      <strong>Username or Email</strong>
+    </div>
+    <div class="input-group flex-nowrap">
+      <input type="text" class="form-control"aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+    <div style="margin-bottom: 16px; margin-top: 16px;">
+      <strong>Password</strong>
+    </div>
+    <div class="input-group flex-nowrap">
+      <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+    <div>
+
+      <div class="flex" style="margin-top: 10px;">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <strong>Remember me</strong>
+             </label>
+        </div>
+        <span class="text-primary">
+         <strong>Forget your password?</strong>
+        </span>
+      </div>
+    </div>
+    <div class="d-grid gap-2" style="margin-top: 25px;">
+      <button class="btn btn-success" type="button">Sign in</button>
+    </div>
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div style="height:  1500px;"></div>
+</div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

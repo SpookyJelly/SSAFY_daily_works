@@ -57,6 +57,8 @@ div, header,h1,section,footer,a,form,span
 
 * 글씨를 클릭하면 자동으로 focus 되는 방법은 잘 모르겠다.
 
+  (●'◡'●) 아하!! 글씨를 클릭하면 자동으로 focus 된다는게, Username을 클릭하면 username input에 포커싱이 되는걸 뜻하는데, 이거는 label로 연결하라는 소리이다. label for = "username" 이라는 태그로 input type과 USERNAME 문자열이 연결 된것 이다.
+
 
 
 
@@ -70,7 +72,9 @@ div, header,h1,section,footer,a,form,span
 * 정답 : rem
 
   > rem 단위는 문서의 최상위 요소, 즉 html 요소의 크기를 기준으로 크기가 정해집니다.
-
+>
+  > html tag에 fontsize가 따로 정의되어있지 않으면, 브라우저 기본 설정 (1rem = =16px)을 따라갑니다.
+  
   ```em``` 단위는 상위 요소 크기를 기준으로 크기가 정해진다.
 
 
@@ -118,3 +122,17 @@ div, header,h1,section,footer,a,form,span
 
 
 자손 선택자는, div를 뿌리로 가지는 모든 p을 지정한다. 따라서, span이 부모인 p에게도 crimson 색상이 지정된다. 반면, 자식 선택자는 div를 직계 부모로 가지는 모든 p를 지정한다. 따라서, 자식 선택은 aqua 색상으로 지정된다.
+
+
+
+#  자손(ex. div p)
+
+* 모든 자식들 중에 p (깊이는 상관 없습니다.)
+* 손자일 수도, 증손자일 수도 있습니다.
+
+
+
+# 자식(ex,div > p)
+
+* div 바로 아래 자식들 중에 p를 가르킵니다.
+* 손자, 증손자는 해당되지 않습니다.
