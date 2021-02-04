@@ -101,10 +101,10 @@
 <nav aria-label="...">
   <ul class="pagination">
     <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Prev</a>
     </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active" aria-current="page">
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item " aria-current="page">
       <a class="page-link" href="#">2</a>
     </li>
     <li class="page-item">
@@ -212,5 +212,37 @@
   </div>
 </div>
 
+```
+
+
+
+```
+교수님 설명
+
+맨위의 컴포넌트는 alaret이다.
+
+위 아래 희미한 선이 있는데, 그건 박스에 alaret이랑 p 담은 다음, 위 아래 border에 선 준다
+
+카드 내용에는 Typography라는게 있다. 거기서 폰트 사이즈도 조절 가능하다. ex. class = "display 1"
+
+--> 폰트가 다르다는게 Typography를 안써서 그런듯
+
+Forms에 있는 값이 card에 들어간다. form이 엄청 중요한 요소라서 잘 살펴봐라.
+
+아...form에 자동적으로 요소별 마진도 잘 들어가 있구나! 나는 이걸 몰라서 일일이 수동으로 마진주고 그랬네
+
+글자 가운데 정렬하는 것도 클래스. class = "text-center" 이다. style ="text align center"를 안쓰네.
+
+부트스트랩에서는 display:flex를 줄여서 class = d-flex 로 쓸수 있다/
+
+class w-100  --> 부모 컨테이너의 100%를 차지하도록 한다.(블록일때만 사용가능)
+
+# 예시 색상과 다른 색상을 쓰고 싶으면 따로 클래스를 만들어주던가, 아니면 부트스트랩을 통째로 찢어서 바꾸던가 해야한다.
+```
+
+```html
+<div class = "card">
+    
+</div>
 ```
 

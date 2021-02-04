@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>practice3</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Bootstrap Grid System 3</h1>
+      </div>
+    </div>
+    <!-- offset 클래스를 적절히 사용 -->
+    <!-- 사용법 : class="offset-md-4" -->
+    <!-- 오프셋은 왼쪽에 생긴다. -->
+    <!-- 1. -->
+    <div class="row">
+      <div class="item col-4">
+        <p>item1</p>
+      </div>
+      <div class="item col-md-4 offset-md-4 col-8">
+        <p>item2</p>
+      </div>
+    </div>
+
+
+    <!-- 2. -->
+    <!-- md 사이즈일때, items2에 offset-md-0을 부여하지 않으면, offset-4가 계속 따라온다.
+    md 사이즈일때 offset이 없어야하므로, offset-md-0을 입력해 없애주자 -->
+    <div class="row">
+      <div class="item col-4 offset-md-4 col-md-4 offset-lg-7 col-lg-5">
+        <p>item1</p>
+      </div>
+      <div class="item col-4 offset-4 offset-md-0 col-md-4 offset-lg-2 col-lg-8">
+        <p>item2</p>
+      </div>
+    </div>
+    
+
+    <!-- 3. -->
+    <!-- 아무리 웹을 잡아댕기고 줄여도, item2,3,4,5가 깨지지 않는 이유는
+    이 4가지 item은든 상위 class row에 내포되어 있기 때문이다.
+    크기가 변함에 따라 item1과 내포 item box는 그 크기를 조절하는데,
+    그에 따라 하위 항목들도 자동으로 크기를 바꾸는 것이다. -->
+    <div class="row">
+      <div class="item col-12 col-md-3 col-lg-3">
+        item1
+      </div>
+      <div class="item col-12 col-md-9 col-lg-9">
+        <div class="row">
+          <div class="item col-6 col-lg-3">item2</div>
+          <div class="item col-6 col-lg-3">item3</div>
+          <div class="item col-6 col-lg-3">item4</div>
+          <div class="item col-6 col-lg-3">item5</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  
+
+</body>
+</html>
