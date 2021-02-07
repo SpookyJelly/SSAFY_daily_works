@@ -21,24 +21,31 @@ for num in range(1,T+1):
         sutoku.append(array)
         squ_row=[]
         row_sum,col_sum=[0,0]
+    # 각행의 합이 45인지 확인 
     for i in range(len(sutoku)):
         row_sum = sum(sutoku[i])
+    # 순회 중에 하나라도 45가 아니면 break
         if row_sum != 45:
             print('0')
             break
+    # sutoku[0][0:3] --> [7,3,6] // sutoku[0][3:6] --> [4,2,9]
         #print(f'@{num} {row_sum} {len(sutoku)}')
         for x in [0, 3, 6]:
+            # squ_row = [[7,3,6],[4,2,9]....]
             squ_row.append(sutoku[i][x:x+3])
-
+        #col_sum += sutoku[k][0]...
         for k in range(len(sutoku)):
             col_sum += sutoku[k][i]
-    if col_sum != 45: 
-        print(f'@{num} {col_sum} {len(sutoku)}')
+            # 의도 : 만약에 한 열을 전부 다 더했는데, 45가 아니면 break
+            if i==9 and col_sum != 45:
+                break
+            col_sum = 0 
+        #print(f'@{num} {col_sum} {len(sutoku)}')
 
        
-                
-    # if (row_sum == 45) and (col_sum==45) and squ_sum(squ_row):
-    #     print(f'#{num} 1')
-    # else:
-    #     print(f'#{num} 0')
+    print(row_sum,col_sum,squ_sum(squ_row))            
+    if (row_sum == 45) and (col_sum==45) and squ_sum(squ_row):
+        print(f'#{num} 1')
+    else:
+        print(f'#{num} 0')
     sutoku = []
