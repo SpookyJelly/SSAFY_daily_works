@@ -29,6 +29,7 @@ P와 Q의 길이는 1이상 10이하이며, P는 Q보다 사전 상에서 먼저
 # 아예 아스키로 바꿔서 합차 구하는건 어떨까? 차가 1 이하면 없는거지.
 # 아스키 전환은 좋은 아이디어인데, 한자리씩 가야한다 안그러면 또...다시 원점이네
 # 어찌되었던, lst 1의 마지막 인덱스에서 조건문을 달아서 승부봐야겠다.
+# 잠깐만... P 가 Q 보다 먼저 온다고 했잖아. aae / aaaf 의 경우에는 aaaf가 더 먼저온다!!
 
 # 키워드 : chr , if , idx , ord
 def isit(lst1,lst2):
@@ -36,25 +37,38 @@ def isit(lst1,lst2):
         if ord(lst2[idx]) - ord(lst1[idx]) > 1:
             return True
         elif ord(lst1[idx]) == ord(lst2[idx]):
+            if len(lst2) > len(lst1): # acd / acde
+                return True
             continue
 
-        else:   # ord(lst2[idx]) - ord(lst1[idx]) ==1
+        else:   # ord(lst2[idx]) - ord(lst1[idx]) ==1 
             # 77개 이후로 에러나는게 여기 구문인듯
-            # aa / aaaaaa 문항을 True로 걸러내지 못한다
+            # aa / aaaaaa 문항을 True로 걸러내지 못한다 --> 아니는데? False 맞는데?
             # aa/ aaaea도 True로 못 거름
-            if ord(lst2[len(lst2)-1]) == 97:
-                return False
-            else:
+            if len(lst2) > len(lst1) and lst2[-1] != 'a':
                 return True
+            else: # len(lst2) == len (lst1) / len(lst2) < len(lst1)
+                try:
+                    if abs(ord(lst2[idx+1]) - ord(lst1[idx+1])) <= 1:
+                        return False
+                    else:
+                        return True
+                except:
+                    False
+            return False
 
     # if lst2[-1]=='a': # lst2의 마지막 리터럴
     #거짓 반환 분리하자
 
     # 그냥 len차이로 처음부터 거를까?
+    # 생각해보니 P와 Q는 10자리. 사전에는 10자리 이상이 있다 --> 둘다 10자리로 만들고 시작?
+    # aaaaa (aaaaa) / aaaaa aaaa(a) 이 둘 사이에는 뭐가 있지? aaaaa a / aaaaa ab / aaaaa aa 등등 다 있다
+    # 둘다 10자리로 만들어보자. 그리고 지금 이 코드에 반례가 있나?? (aef / afa)
 for tc in range(1,int(input())+1):
-    lst1 = list(input()) +['`']
+    lst1 = list(input())
     lst2 = list(input())
-
+    #lst1 = lst1 + ['a'] * (10 - len(lst1))
+    #lst2 = lst2 + ['a'] * (10 - len(lst2))
     if isit(lst1,lst2):
         print(f'#{tc} Y')
     else:
