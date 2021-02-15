@@ -29,19 +29,20 @@ def binary(lst:list,page):
     half_idx = 0
     cnt  = 0
     while True:
-        half_idx = len(lst)//2
-        a = lst[half_idx]
+        half_idx = len(lst)//2 # 인덱스다. 처음에는 200이다
+        a = lst[half_idx] # lst[200] --> 201
         if lst[half_idx] > page:
-            lst = lst[:half_idx]
+            lst = lst[:half_idx-1] # lst[:200] --> lst [ 0~ 199]
             cnt += 1
-        elif lst[half_idx] == page:
+        elif lst[half_idx] == page: # lst[half_idx] ==> lst[200] --> 201이랑 비교해도 ㄱㅊ음
             cnt +=1
             break
-        else: # lst[half_idx] < page
-            lst = lst[half_idx-1:]
+        else: # lst[half_idx] < page # lst[200] ==> 200 <page?
+            lst = lst[half_idx:]  # lst[20:] --> lst[200~400]
             cnt += 1
     print(lst[half_idx],cnt)
 
+# 자꾸 에러나는 이유가 리스트를 변형해서 그런거 같다... 다른식으로 해보자.
 
 for tc in range(1,int(input())+1):
     P,Pa,Pb = list(map(int,input().split()))
