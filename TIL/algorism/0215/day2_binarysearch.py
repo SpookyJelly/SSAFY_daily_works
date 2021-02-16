@@ -44,8 +44,12 @@ def binary(lst:list,page):
 
 # 자꾸 에러나는 이유가 리스트를 변형해서 그런거 같다... 다른식으로 해보자.
 
+# 추가 확인 사항 : 리스트 슬라이싱의 경우는 딥 카피가 되는 것이 맞다. 바이너리 함수 자체는 문제 없다. 다만 시간이 오래걸리는거 빼면
+# 다만 함수 간 리스트가 넘어갈때는 쉘로우 카피가 되서 내부에서 바뀌었을때, 돌아왔을때도 바뀌어 있을 수 있다.
+
 for tc in range(1,int(input())+1):
     P,Pa,Pb = list(map(int,input().split()))
     P = list(range(1,P+1))
     binary(P,Pa)
+    print(P)
     binary(P,Pb)

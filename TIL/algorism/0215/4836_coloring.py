@@ -1,4 +1,4 @@
-# 2일차 - 색칠하기
+# 4836. 색칠하기 (D2)
 
 """
 그림과 같이 인덱스가 있는 10x10 격자에 빨간색과 파란색을 칠하려고 한다.
@@ -50,7 +50,7 @@ def makeasqu(lst):
 
 
 for tc in range(1, int(input())+1):
-    Color1 = []  # 1번 색상 칠해진 영역들 수용소
+    Color1 = []  # 1번 색상 칠해진 영역들 모아둔다
     Color2 = []
     for N in range(int(input())):  # 색상 분리해야한다.
         ColorN = list(map(int, input().split()))  # 입력 받는 리스트를 요소에 따라 color1 혹은 2로 넣는다
@@ -66,6 +66,9 @@ for tc in range(1, int(input())+1):
     # Color1과 Color2의 모든 요소에 makeasqu를 씌우자
     # 반환은 Color별로 임시 저장해두자.. While로 할까?
     # i는 color1의 길이 j는 color2의 길이
+
+    # 구분을 1,30으로 할 필요 없었던게, 같은 색깔은 서로 겹치지 않는다고 조건을 알려주었다.
+
     i, j = len(Color1), len(Color2)
     # 분리된 값을 저장할 리스트
     Color1_sq = []
