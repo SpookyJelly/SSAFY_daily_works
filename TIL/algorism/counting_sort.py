@@ -17,4 +17,4 @@ def counting (lst):
         copy_lst[checklst[element]-1] = element
         checklst[element] -= 1
     return copy_lst
-counting([1,3,4,2,2,3])   
+print(counting([1,3,4,2,2,3]))   
