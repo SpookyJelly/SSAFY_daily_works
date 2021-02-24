@@ -57,7 +57,7 @@ for tc in range(1,TC+1):
                     break
                 elif arr[way][j] == 1:
                     stack.append(j)
-                    visited[j] = True
+                    visited[way] = True
 
      print(f'#{tc} {result}')
 
