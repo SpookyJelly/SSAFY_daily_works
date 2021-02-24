@@ -43,7 +43,7 @@ for tc in range(1,TC+1):
      visited = [False] * V # 노드 수만큼의 false가 존재하므로 다음과 같이 만들어준다.
      # 이렇게 하면 [False, False, False, False, False, False] 가 된다.
      # 나는 [[False],[False],[False],[False],[False],[False]] 인줄 알았는데, 이런 꼴은 아래와 같이 해서 만든다.
-     # [[False]]* V
+     # [[False]]* V <-- 근데 가급적이면 이런거 하지마라.. shallow copy가 되어버리니까
      # 문법 실수할 수도 있지.ㅎㅎ
      stack.append(S-1)
      result = 0
