@@ -23,7 +23,7 @@ def check():
                     if o_cnt ==5:
                         return 'YES'
                     nr +=dr[k]
-                    nc +=dr[k]
+                    nc +=dc[k]
 
 
 
