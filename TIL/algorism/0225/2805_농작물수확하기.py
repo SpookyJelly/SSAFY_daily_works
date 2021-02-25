@@ -36,9 +36,6 @@ N X N크기의 농장이 있다.
 import sys
 sys.stdin = open('2805_input.txt','r')
 
-import sys
-sys.stdin = open('2805_input.txt','r')
-
 def BrokenArrow(arr):
 
     # 델타 이동 좌/우
