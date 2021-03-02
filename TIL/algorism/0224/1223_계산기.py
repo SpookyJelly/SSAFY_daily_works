@@ -22,9 +22,7 @@ TC = 10
 
 for tc in range(1,TC+1):
     N = int(input()) # 들어오는 문자열의 길이
-    #N = 7
     case = list(input()) # 입력되는 문자열들을 리스트로 저장. 문자열 말고 리스트로 하는 이유? 음 글쎄
-    #case = ['3', '+', '2', '*', '3', '+', '1']
     stack = [] # 스택으로 활용될 빈 리스트 , 다행이다...여기 비우니까 오류나길래 뭐지 싶었는데. 잘되었다.
     new= [] # 새로 이동 될 리스트
     idx = 0
@@ -54,12 +52,11 @@ for tc in range(1,TC+1):
     # 위 과정을 끝나면 스택에 단 하나의 요소만 남는다. 그걸 pop시켜줘서 new를 완전히 후열 뭐시기로 만든다.
     for __ in range(len(stack)): # 스택에 달랑 하나만 남는줄 알았는데, 만약에 끝에 연산자가 무더기로 오는 경우, 하나가 아닐 수 있다.
         new.append(stack.pop()) # 그렇기 때문에 쭉 다 비워주자
-    #print('new:',new)
-    #print('stack:',stack) # 스택은 다시 비어져있는 상태
+        #  스택은 다시 비어져있는 상태
 
     idx = 0
     while idx<N: # 여기서부터는 계산하는 부분
-        if type(new[idx]) == type(1): # 만약에 new[idx]가 정수라면...
+        if type(new[idx]) == type(1): # 만약에 new[idx]가 정수라면... isdigit() 쓰면 더 깔끔
             stack.append(new[idx])
         else: # 만약에 new[idx]가 정수가 아니라면 --> 연산자라면
             a = stack.pop()
