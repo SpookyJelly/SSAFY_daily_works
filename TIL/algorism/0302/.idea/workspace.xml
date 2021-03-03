@@ -48,6 +48,7 @@
     <session id="1195253797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -64,12 +65,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="8268" />
+          <entry key="py" value="8292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="8268" />
+          <entry key="Python" value="8292" />
         </counts>
       </usages-collector>
     </session>
@@ -88,17 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4875_미로.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
+            <state relative-caret-position="368">
               <caret line="44" selection-start-line="42" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4875_미로(가독성향상).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="16">
+              <caret line="11" selection-start-line="11" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -118,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4880_토너먼트카드게임(해설).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="178">
               <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <marker date="1614673744609" expanded="true" signature="398:407" ph="..." />
@@ -130,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4881_배열최소합.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="130">
+              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding>
                 <marker date="1614683216731" expanded="true" signature="457:458" ph="..." />
               </folding>
@@ -139,13 +140,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1224_계산기3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="1072">
+              <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
               <folding>
-                <marker date="1614686277295" expanded="true" signature="2056:2057" ph="..." />
+                <marker date="1614686513518" expanded="true" signature="2080:2081" ph="..." />
               </folding>
             </state>
           </provider>
@@ -173,17 +174,17 @@
       <list>
         <option value="$PROJECT_DIR$/4874_Forth.py" />
         <option value="$PROJECT_DIR$/4875_미로.py" />
-        <option value="$PROJECT_DIR$/4875_미로(가독성향상).py" />
         <option value="$PROJECT_DIR$/4880_토너먼트카드게임.py" />
         <option value="$PROJECT_DIR$/4880_토너먼트카드게임(해설).py" />
         <option value="$PROJECT_DIR$/4881_배열최소합.py" />
         <option value="$PROJECT_DIR$/1224_계산기3.py" />
+        <option value="$PROJECT_DIR$/4875_미로(가독성향상).py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="916" />
-    <option name="width" value="1011" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -358,8 +359,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="916" y="0" width="1011" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
@@ -370,7 +370,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,20 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4875_미로.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="44" selection-start-line="42" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4875_미로(가독성향상).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Python3.5/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -468,9 +454,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1224_계산기3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <marker date="1614686513518" expanded="true" signature="2080:2081" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4881_배열최소합.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding>
+            <marker date="1614683216731" expanded="true" signature="457:458" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/4880_토너먼트카드게임(해설).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="178">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <marker date="1614673744609" expanded="true" signature="398:407" ph="..." />
@@ -488,23 +494,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4881_배열최소합.py">
+    <entry file="file://$PROJECT_DIR$/4875_미로.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <marker date="1614683216731" expanded="true" signature="457:458" ph="..." />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="44" selection-start-line="42" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1224_계산기3.py">
+    <entry file="file://$PROJECT_DIR$/4875_미로(가독성향상).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <marker date="1614686277295" expanded="true" signature="2056:2057" ph="..." />
-          </folding>
+        <state relative-caret-position="16">
+          <caret line="11" selection-start-line="11" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>

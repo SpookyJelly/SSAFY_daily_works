@@ -69,7 +69,7 @@ def Gorehowl(str: list) -> list:
         else:  # 연산자 비교하고 append 해야하는데...최초에 넣어줄때 어떻게 넣는담 ')' 처리는 어떻게?
             while len(stack) > 0 and out_dic[word] <= in_dic[stack[-1]]:  # 스택 길이가 0보다 크면서,
                 # 밖에 있는 연산자의 우선순위가 스택 제일 위의 우선도보다 낮다면 (찍어누를수 없다면)
-                # 스택 맨위를 팝 시켜준 다음, result에 넣는다
+                # 스택 맨위를 팝 시켜준 다음, result에 넣는다. 이 조건을 만족한다면 계속계속 반복한다.
                 result.append(stack.pop())
             # 여기는 찍어누를수 있을때 눌러주는곳
             stack.append(word)
