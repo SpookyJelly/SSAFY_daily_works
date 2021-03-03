@@ -28,6 +28,8 @@
       <change afterPath="$PROJECT_DIR$/1225_암호생성기.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BFS.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DFS_recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/다리를 지나는 트럭 (2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/다리를 지나는 트럭.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/problem.py" afterDir="false" />
@@ -53,7 +55,7 @@
     <session id="998740293">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
@@ -61,22 +63,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2302" />
+          <entry key="py" value="3746" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2302" />
+          <entry key="Python" value="3746" />
         </counts>
       </usages-collector>
     </session>
@@ -101,38 +103,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/다리를 지나는 트럭.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="15" selection-start-line="15" selection-end-line="44" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BFS.py">
+        <entry file="file://$PROJECT_DIR$/다리를 지나는 트럭 (2).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <marker date="1614779374993" expanded="true" signature="24:28" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:30" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:31" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:32" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:33" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:34" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:36" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:37" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:38" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:40" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:42" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:43" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:45" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:46" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:48" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:51" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:53" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:56" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:57" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:58" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:59" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:62" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:63" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="24:69" ph="..." />
-                <marker date="1614779374993" expanded="true" signature="495:743" ph="..." />
-              </folding>
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Program Files (x86)/Python3.5/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-308">
+              <caret line="308" selection-start-line="308" selection-end-line="308" />
             </state>
           </provider>
         </entry>
@@ -155,13 +148,16 @@
         <option value="$PROJECT_DIR$/1225_암호생성기.py" />
         <option value="$PROJECT_DIR$/DFS_recursive.py" />
         <option value="$PROJECT_DIR$/BFS.py" />
+        <option value="$PROJECT_DIR$/다리를 지나는 트럭.py" />
+        <option value="$PROJECT_DIR$/다리를 지나는 트럭 (2).py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="952" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,7 +184,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BFS">
+  <component name="RunManager" selected="Python.다리를 지나는 트럭 (2)">
+    <configuration name="다리를 지나는 트럭 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0303" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/다리를 지나는 트럭 (2).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="다리를 지나는 트럭" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0303" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/다리를 지나는 트럭.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1225_암호생성기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="0303" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,9 +294,13 @@
       <item itemvalue="Python.1225_암호생성기" />
       <item itemvalue="Python.DFS_recursive" />
       <item itemvalue="Python.BFS" />
+      <item itemvalue="Python.다리를 지나는 트럭" />
+      <item itemvalue="Python.다리를 지나는 트럭 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.다리를 지나는 트럭 (2)" />
+        <item itemvalue="Python.다리를 지나는 트럭" />
         <item itemvalue="Python.BFS" />
         <item itemvalue="Python.DFS_recursive" />
         <item itemvalue="Python.1225_암호생성기" />
@@ -279,16 +321,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32785088" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40350878" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32681867" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23669924" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -322,6 +363,21 @@
           <line>6</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/다리를 지나는 트럭.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/다리를 지나는 트럭.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/다리를 지나는 트럭 (2).py</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -333,17 +389,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFS_recursive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <marker date="1614779374993" expanded="true" signature="24:28" ph="..." />
             <marker date="1614779374993" expanded="true" signature="24:30" ph="..." />
@@ -371,6 +420,34 @@
             <marker date="1614779374993" expanded="true" signature="24:69" ph="..." />
             <marker date="1614779374993" expanded="true" signature="495:743" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS_recursive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python3.5/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/다리를 지나는 트럭.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" selection-start-line="15" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/다리를 지나는 트럭 (2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
