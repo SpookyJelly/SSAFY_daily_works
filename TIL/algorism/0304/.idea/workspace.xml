@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c857803-a0d0-421d-8703-3304610daf38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../0216/1210_사다리(2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0216/1979.어디에 단어가 들어갈수 있을까.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0216/1996_숫자를 정렬하자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0216/2001_파리퇴치.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0218/1216_회문2(교수님).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0218/1216_회문2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0218/3143_가장빠른문자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0218/4861_tec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0218/4861_회문(교수님).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0218/5432_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0226/10158번 개미.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0226/2477_참외밭.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/1224_계산기3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/4874_Forth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/4875_미로(가독성향상).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/4875_미로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/4880_토너먼트카드게임(해설).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/4880_토너먼트카드게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0302/4881_배열최소합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0303/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0303/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0303/1225_암호생성기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0303/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0303/DFS_recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_미로1(D4).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_미로1(D4)_재귀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5097_회전(D2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5099_피자굽기(D3).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5099_피자굽기(D3)_개선(큐).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5102_노드의 거리(D2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5105번_미로의거리(D3).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/name_and_main/apple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/name_and_main/banana.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/CSS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/HTML.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/homeworkshop/0203_web/web_03_workshop/원본/web_03_workshop/images/css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/homeworkshop/0203_web/web_03_workshop/원본/web_03_workshop/images/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/homeworkshop/0203_web/web_03_workshop/원본/web_03_workshop/images/html5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/homeworkshop/0203_web/web_03_workshop/원본/web_03_workshop/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/homeworkshop/0203_web/web_03_workshop/원본/web_03_workshop/images/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/homeworkshop/0203_web/web_03_workshop/원본/web_03_workshop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/homeworkshop/0203_web/web_03_workshop/원본/web_03_workshop/style.css" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="802226789">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="9310" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="9310" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5097_회전(D2).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5099_피자굽기(D3)_개선(큐).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5099_피자굽기(D3)_개선(포인터).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5102_노드의 거리(D2).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding>
+                <marker date="1614829683536" expanded="true" signature="1159:1205" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1226_미로1(D4).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" selection-start-line="24" selection-end-line="26" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1226_미로1(D4)_재귀.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../0302/4875_미로.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/5097_회전(D2).py" />
+        <option value="$PROJECT_DIR$/5105번_미로의거리(D3).py" />
+        <option value="$PROJECT_DIR$/../0303/BFS.py" />
+        <option value="$PROJECT_DIR$/5102_노드의 거리(D2).py" />
+        <option value="$PROJECT_DIR$/1226_미로1(D4).py" />
+        <option value="$PROJECT_DIR$/1226_미로1(D4)_재귀.py" />
+        <option value="$PROJECT_DIR$/5099_피자굽기(D3).py" />
+        <option value="$PROJECT_DIR$/5099_피자굽기(D3)_개선.py" />
+        <option value="$PROJECT_DIR$/5099_피자굽기(D3)_개선(큐).py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="899" />
+    <option name="width" value="1028" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="0304" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0304" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.5099_피자굽기(D3)_개선(큐)">
+    <configuration name="1226_미로1(D4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0304" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1226_미로1(D4).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1226_미로1(D4)_재귀" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0304" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1226_미로1(D4)_재귀.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5099_피자굽기(D3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0304" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5099_피자굽기(D3).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5099_피자굽기(D3)_개선" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0304" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5099_피자굽기(D3)_개선.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5099_피자굽기(D3)_개선(큐)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0304" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5099_피자굽기(D3)_개선(큐).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.5099_피자굽기(D3)" />
+      <item itemvalue="Python.1226_미로1(D4)" />
+      <item itemvalue="Python.1226_미로1(D4)_재귀" />
+      <item itemvalue="Python.5099_피자굽기(D3)_개선" />
+      <item itemvalue="Python.5099_피자굽기(D3)_개선(큐)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.5099_피자굽기(D3)_개선(큐)" />
+        <item itemvalue="Python.5099_피자굽기(D3)_개선" />
+        <item itemvalue="Python.1226_미로1(D4)_재귀" />
+        <item itemvalue="Python.1226_미로1(D4)" />
+        <item itemvalue="Python.5099_피자굽기(D3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c857803-a0d0-421d-8703-3304610daf38" name="Default Changelist" comment="" />
+      <created>1614816234501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614816234501</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="899" y="0" width="1028" height="1047" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33004385" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35964912" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5105번_미로의거리(D3).py</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5102_노드의 거리(D2).py</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5099_피자굽기(D3).py</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1226_미로1(D4).py</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1226_미로1(D4).py</url>
+          <line>58</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5099_피자굽기(D3)_개선(큐).py</url>
+          <line>45</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5099_피자굽기(D3)_개선(큐).py</url>
+          <line>50</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../0303/BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5105번_미로의거리(D3).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../0302/4875_미로(가독성향상).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5099_피자굽기(D3)_개선.py" />
+    <entry file="file://$PROJECT_DIR$/5097_회전(D2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5102_노드의 거리(D2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <marker date="1614829683536" expanded="true" signature="1159:1205" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1226_미로1(D4).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" selection-start-line="24" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1226_미로1(D4)_재귀.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../0302/4875_미로.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5099_피자굽기(D3).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <marker date="1614844933008" expanded="true" signature="984:2231" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5099_피자굽기(D3)_개선(큐).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5099_피자굽기(D3)_개선(포인터).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
