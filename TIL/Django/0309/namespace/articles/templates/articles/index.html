@@ -1,0 +1,13 @@
+<h1>게시판 메인</h1>
+{% comment %} pages <-- app_name // index <--- 그냥 name {% endcomment %}
+<a href="{% url 'pages:index' %}">페이지 메인으로 가기</a>
+
+
+{% comment %} 
+http://localhost:8000/ --> 루트 경로
+1. /pages/ - 루트 경로부터 시작
+2. pages/ - 현재 위치부터 시작
+
+2.ex. 만약에 현재위치가 http://localhost:8000/articles/이면
+-> pages/ -> http://localhost:8000/articles/pages 
+{% endcomment %}
