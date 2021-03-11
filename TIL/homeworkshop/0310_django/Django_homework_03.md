@@ -27,6 +27,8 @@ class Article(models.Model):
   ---
 
   -> 결과 : migrations 폴더 내에 0001_initial.py 가 생성된다.
+  
+  -> 이름은 자동으로 결정이 된다.
 
 
 
