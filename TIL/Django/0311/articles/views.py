@@ -50,6 +50,7 @@ def write(request):
 def delete(request,article_id):
     # 1. 삭제할 게시글을 불러온다.
     article = Article.objects.get(id=article_id)
+    print(article)
     # 2. 삭제한다.
     article.delete()
     # 3. 메인 페이지로 리 다이렉트
