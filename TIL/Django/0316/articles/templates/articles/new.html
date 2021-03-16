@@ -1,0 +1,19 @@
+<form action="" method="POST">
+  {% csrf_token %}
+  {% comment %} 
+  
+  <label for="title">제목</label>
+  <input type="text" id= 'title' name="title">
+  <br>
+  <label for="content">본문</label>
+  <input type="text" id='title' name="content">
+  <br> 
+  
+  form을 만들면 위에 과정이 필요 없다
+  
+  {% endcomment %} 
+
+  {% comment %} {{ form }}도 되지만, 밑에 처럼 하면 p태그를 씌워서 보여준다. {% endcomment %}
+  {{ form.as_p }}
+  <input type="submit">
+</form>
