@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>DETAIL</h2>
+  <h3>{{ article.pk }} 번째 글</h3>
+  <hr>
+  <p>제목 : {{ article.title }}</p>
+  <p>내용 : {{ article.content }}</p>
+  
+  {% comment %}  article.image가 존재할때만 article에서 이미지를 불러온다. {% endcomment %}
+  {% if article.image %}
+    <img src="{{article.image.url}}" alt="{{article.image.name}}">
+  {% comment %} 
+  # 아니면 어떠한 디폴트 이미지를 출력해줄 수 도 있다.
+  {%else%}
+    <img src="어떤 기본 이미지" alt="">
+  
+  {% endcomment %}
+  
+  {% endif %}
+  
+  <p>작성시각 : {{ article.created_at }}</p>
+  <p>수정시각 : {{ article.updated_at }}</p>
+  <hr>
+  <a href="{% url 'articles:update' article.pk %}" class="btn btn-primary">[UPDATE]</a>
+  <form action="{% url 'articles:delete' article.pk %}" method="POST">
+    {% csrf_token %}
+    <button class="btn btn-danger">DELETE</button>
+  </form>
+  <a href="{% url 'articles:index' %}">[back]</a>
+{% endblock %}
