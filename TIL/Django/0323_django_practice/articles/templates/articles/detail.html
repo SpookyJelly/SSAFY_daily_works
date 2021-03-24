@@ -9,10 +9,29 @@
   <p>작성시각 : {{ article.created_at }}</p>
   <p>수정시각 : {{ article.updated_at }}</p>
   <hr>
-  <a href="{% url 'articles:update' article.pk %}" class="btn btn-primary">[UPDATE]</a>
-  <form action="{% url 'articles:delete' article.pk %}" method="POST">
-    {% csrf_token %}
-    <button class="btn btn-danger">DELETE</button>
-  </form>
+  {% if article.author == request.user %}
+  <a 
+  href="{% url 'articles:update' article.pk %}" class="btn btn-primary"
+  >
+  [UPDATE]
+  </a>
+
+    <form action="{% url 'articles:delete' article.pk %}" method="POST">
+      {% csrf_token %}
+      <button class="btn btn-danger">DELETE</button>
+    </form>
+  {% endif %}
   <a href="{% url 'articles:index' %}">[back]</a>
+
+  <hr>
+  <form action="{% url 'articles:create_comment' article.pk %}" method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button> 작성</button>
+  </form>
+  <hr>
+  {% for comment in comments %}
+    <div>{{comment.content}}</div>
+  {% endfor %}
+
 {% endblock %}

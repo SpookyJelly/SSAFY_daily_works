@@ -9,10 +9,12 @@ from django.contrib import messages
 
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
+from .forms import CustomUserCreationForm
+
 # Create your views here.
 def signup(request):
     if request.method =='POST':
-        form = UserCreationForm(request.POST)
+        form = CustomUserCreationForm(request.POST)
         if form.is_valid:
             user = form.save() # DB에 생성된 유저 객체 반환. 마치 article 을 Article 폼으로 만들었을때, article이 반환되는것 처럼...
             # UserCreationForm은 User를 만드는 Form이다 보니까, 반환으로 유저 객체를 반환하다.
@@ -25,7 +27,7 @@ def signup(request):
             return redirect("articles:index")
 
     else:
-        form = UserCreationForm()
+        form = CustomUserCreationForm()
     context = {
         'form':form,
     }

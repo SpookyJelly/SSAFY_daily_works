@@ -124,3 +124,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'accounts.User' # 왼쪽에 있는건 앱 이름. 오른쪽에 있는건 모델 이름
