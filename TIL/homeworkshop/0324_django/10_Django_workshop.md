@@ -185,3 +185,37 @@ def detail(request, pk):
 
 * comments 는 저장되어 있는 댓글들을 for 태그를 통해서 뱉어 냅니다.
 * 비어있는 comment_form은 최하단에 표시되며, 작성된 글은 제출 버튼을 누르는 순간 {% url articles:comments %} 를 통해 이동합니다.
+
+
+
+#### 4. Comment Delete
+
+> articles//comments//delete/ 댓글 삭제 기능을 구현한다.
+
+
+
+```python
+def comment_delete(request, article_pk, pk):
+    # 1. 삭제 요청 POST를 받으면 일단 해당 아티클의 pk값에 맞는 객체를 가져온다.
+    article = get_object_or_404(Article,pk=article_pk)
+    # 2. 그 다음...댓글의 인스턴스를 뽑아야지 다만...현재 article에 속해있는 댓글 중 pk값이 일치하는것
+    comment = article.comment_set.get(pk=pk)
+    # 3. 삭제후 리턴
+    comment.delete()
+    return redirect('articles:detail', article_pk)
+```
+
+
+
+* detail.html
+
+```django
+	
+	<form action="{% url 'articles:comment_delete' article.pk comment.pk%}" method =='POST'>
+        {% csrf_token %}
+        {{ comment.content }} 
+        <input type="submit" value="삭제">
+      </form>
+```
+
+* 문제 조건에 따라 인수가 2개 들어가니, 해당 부분만 신경 써서 잘 전달해주면 된다.
