@@ -1,0 +1,32 @@
+.title {
+  color : tomato;
+  font-family: 'Black Han Sans', sans-serif;
+  font-style: italic;
+  font-variant: small-caps;
+  background-color: beige;
+}
+
+.box {
+  border: black solid 2px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+p {
+  font-family: 'Black Han Sans', sans-serif;
+  font-weight: lighter;
+  font-size : 30px;
+}
+
+#cssbox {
+  width:150px;
+  height:150px;			
+  border:2px solid #222;
+  margin:30px auto;
+}
+
+
+#bodycolor {
+  background-color: #F0F8FF;
+}
+
