@@ -53,6 +53,9 @@ class Comment(models.Model):
 
 Comment에 따로 related_name이 지정되지 않았으므로, 필드 이름은 quetion_id로 지정될 것이다
 
+* 수정 : 필드 네임은 외래키 속성을 소문자_id 꼴로 지정되고, 테이블 이름은 앱 네임과 외래키를 사용하는 class를 소문자와의 조합으로 이루어진다.
+* 따라서 정답은 , **fieldname = answer_id // tablename = article_comment**가 된다
+
 
 
 
