@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{  profile_user }}님의 프로필 페이지</h1>
+{% if request.user != profile_user.username %}
+<form action="{% url 'accounts:follow' profile_user.pk %}" method="POST">
+  {% csrf_token %}
+  {% if request.user in profile_user.followers.all %}
+    <button>언팔로우</button>
+  {% else %}
+    <button>팔로우</button>
+  {% endif %}
+</form>
+{% endif %}
+
+{% comment %} 팔로워 목록 {% endcomment %}
+<hr>
+<p>{{ profile_user.username }}님을 팔로우 하는 사람</p>
+{% for follower in profile_user.followers.all %}
+  {{ follower }}
+{% endfor %}
+<hr>
+{% comment %} 팔로잉 목록 {% endcomment %}
+<p>{{ profile_user.username }}님이 팔로우 하는 사람</p>
+{% for following in profile_user.followings.all %}
+  {{ following }}
+{% endfor %}
+<hr>
+<a href="{% url 'articles:index' %}">돌아가기</a>
+{% endblock content %}
+
+{% comment %} 
+
+from_user_id : 나
+to_user_id : 프로필 주인
+{% endcomment %}
