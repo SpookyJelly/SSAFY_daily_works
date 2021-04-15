@@ -26,6 +26,47 @@
 
 # 같은 줄에 빈 칸을 하나 사이에 두고 교환 후 받을 수 있는 가장 큰 금액을 출력한다.
 
+import sys
+sys.stdin = open('1244_input.txt','r')
+
+# 그냥 브루트포스로 가야하나?
+# 아니? 투포인터 써보자
+def two_pointer(numbers,swap):
+    start = 0
+    cnt = 0
+    end = len(numbers)-1
+    while cnt < swap:
+        while start < end:
+            if numbers[start] < numbers[end]:
+                numbers[start],numbers[end] = numbers[end] , numbers[start]
+                cnt += 1
+                start += 1
+                if cnt == swap:
+                    break
+            else: # numbers[start] >= numbers[end]
+                start += 1
+        if end == len(numbers)//2:
+            answer = timekilling(numbers,cnt,swap)
+            return answer
+        else:
+            end -=1
+            start = 0
+
+    return numbers
+
+
+def timekilling(numbers,cnt,swap):
+    while cnt < swap:
+        numbers[-1],numbers[-2] = numbers[-2],numbers[-1]
+        cnt +=1
+    return numbers
+
+
 TC = int(input())
+
 for tc in range(1,TC+1):
-    numbers, swap = map(int,input().split())
+    numbers, swap = input().split()
+    numbers = list(numbers)
+    swap = int(swap)
+    print(two_pointer(numbers,swap))
+    
