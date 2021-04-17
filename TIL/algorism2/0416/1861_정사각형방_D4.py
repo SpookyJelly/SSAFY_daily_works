@@ -56,6 +56,7 @@ def counting_stars(lst):
                 maxi = cnt
                 start = idx - cnt
             cnt = 0
+    # 출력 형식 맞추기 위한 문자화
     return [str(start),str(maxi+1)]
 
 
