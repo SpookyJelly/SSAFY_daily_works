@@ -42,6 +42,8 @@ def sub_power(n: int, lst: list) -> list:
 
 # 목표 : 높이가 B 이상인 탑 중에서 높이가 가장 낮은 탑을 알아내려고 한다. --> 무작정 키 큰 사람으로 조합해서는 안된다는 것
 # 이상적인 것은 선반 높이와 탑 높이가 같은 것이지.
+# 재귀호출한 후 되돌아가는 것은, 내가 한 선택을 취소하고 되돌리는것이라고 생각하자.
+
 def binary_weaver(idx,value):
     global min_V
     if value >= B:
