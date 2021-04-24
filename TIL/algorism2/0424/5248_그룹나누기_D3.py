@@ -35,7 +35,9 @@ for tc in range(1,TC+1):
         n1,n2 = student_lst[idx],student_lst[idx+1]
         P[find_set(n2)] = find_set(n1)
     cnt = 0
-    for i in range(1,N+1):
+    # 얘는 자기자신을 잃지 않은 놈들만 카운트 한다. 통합되어도 통합된 부모 밑에 딸린 자식들은 다 바꾸지도 않았을것임
+    # 따라서 실제로 P를 출력해보면 실제 만들어진 짝지 세트랑 표현하는것이 다를 것이다.
+    for i in range(1,N+1): 
         if i==P[i]:
             cnt +=1
     print('#{} {}'.format(tc, cnt))
