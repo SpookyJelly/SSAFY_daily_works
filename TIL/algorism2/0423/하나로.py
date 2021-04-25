@@ -16,10 +16,12 @@ def Kruskal(N,edge):
             L2 += w
             if cnt == N-1: # N-1개의 간선선택 완료
                 return L2
-
+import sys
+sys.stdin = open('1251_input.txt','r')
 
 
 T = int(input())
+T = 1
 for tc in range(1,T+1):
     N = int(input())
     X = list(map(int,input().split()))
@@ -37,6 +39,7 @@ for tc in range(1,T+1):
     for i in range(N):
         for j in range(i+1,N):# 무향 그래프니까 굳이 i~j까지 추가할 필요없이 반만 추가해줘도 된다
             # 이게 왜 반이 되는지는 생각해보자
-            edge.append(((X[i]- X[j]) **2 + (Y[i]-Y[j])**2),i,j)
+            edge.append([((X[i]- X[j]) **2 + (Y[i]-Y[j])**2),i,j])
     edge.sort()
+    print(Kruskal(N,edge))
 
